@@ -39,6 +39,7 @@ VS_ADDER = add_vs_cmap.py # from nototools
 EMOJI_SRC_DIR ?= png/128
 
 SEQUENCE_CHECK_PY = check_emoji_sequences.py
+BYPASS_SEQUENCE_CHECK = 'True'
 
 BUILD_DIR := build
 EMOJI_DIR := $(BUILD_DIR)/emoji
